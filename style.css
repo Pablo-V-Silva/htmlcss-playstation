@@ -67,14 +67,40 @@
 
 /* NAV
 ***************************************************************** */
-.dd_hover {
-  visibility: hidden;
+nav .dd_hover {
+  display: none;
 }
 
-li.nav-item:hover .dd_hover {
-  visibility: visible;
+nav li.nav-item:hover .dd_hover {
+  display: block;
+  position: relative;
+  top: 2px;
 }
 
-li.nav-item:hover .dd_no_hover {
-  visibility: hidden;
+nav li.nav-item:hover .dd_no_hover {
+  display: none;
+}
+
+nav .border_w {
+  border: 0px solid var(--bluebtn);
+}
+
+nav .btn {
+  transition: 0s;
+}
+
+nav .blue_btn {
+  background-color: var(--bluebtn);
+}
+
+nav .border_w:hover {
+  border: 2px solid var(--bluebtn);
+}
+
+nav .blue_btn:hover {
+  border: 2px solid white;
+}
+
+.blue_btn:hover .my_play {
+  margin-right: -3rem;
 }
