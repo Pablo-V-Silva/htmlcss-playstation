@@ -65,8 +65,25 @@
   --prov: #EE96F5;
 }
 
+.gray_btn {
+  background-color: var(--graybtn);
+}
+
+.blue_btn {
+  background-color: var(--bluebtn);
+}
+
+
 /* NAV
 ***************************************************************** */
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+header .h_banner {
+  background-color: var(--black);
+}
 nav .dd_hover {
   display: none;
 }
@@ -85,22 +102,13 @@ nav .border_w {
   border: 0px solid var(--bluebtn);
 }
 
-nav .btn {
-  transition: 0s;
+nav .button:hover {
+  border: 2px solid var(--graybtn);
+  margin-left: -0.25rem;
+  margin-right: -0.1rem;
 }
 
-nav .blue_btn {
-  background-color: var(--bluebtn);
-}
-
-nav .border_w:hover {
-  border: 2px solid var(--bluebtn);
-}
-
-nav .blue_btn:hover {
+nav .gray_btn:hover {
   border: 2px solid white;
 }
 
-.blue_btn:hover .my_play {
-  margin-right: -3rem;
-}
