@@ -180,3 +180,13 @@ nav li.nav-item:hover .dd_no_hover {
 .selection:hover {
   border-bottom: 3px solid var(--bluebtn);
 }
+/* /carousel products */
+
+.two_players {
+  background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  height: 700px;
+  margin-top: 7.2rem;
+}
