@@ -49,7 +49,6 @@
 
 /* UTILITY
 **************************************************************** */
-/* color */
 :root {
   --white: #ffffff;
   --black: #000000;
@@ -65,8 +64,10 @@
   --prov: #EE96F5;
   --op_blue: #2d65e648;
   --blue_text: #2D64E6;
+  --orange_b: #cd3e0f46;
 }
-/* btn colors */
+/* /color */
+
 .gray_btn {
   background-color: var(--graybtn);
 }
@@ -78,11 +79,12 @@
 .orange_btn {
   background-color: var(--orangebtn);
 }
+/* btn colors */
 
-/* font */
 .fs_7 {
   font-size: 3.5rem;
 }
+/* font */
 
 /* NAV
 ***************************************************************** */
@@ -189,4 +191,21 @@ nav li.nav-item:hover .dd_no_hover {
   background-repeat: no-repeat no-repeat;
   height: 700px;
   margin-top: 7.2rem;
+}
+/* /Two players */
+
+.game_list {
+  background-color: var(--graybtn);
+}
+
+.border_r:hover {
+  border: 2px solid var(--orange_b);
+  border-radius: 1rem;
+  filter: drop-shadow(0 0 1rem var(--orangebtn));
+  cursor: pointer;
+}
+/* /game list */
+
+.card {
+  border: 0px;
 }
