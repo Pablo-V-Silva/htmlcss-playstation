@@ -1,0 +1,21 @@
+/* DEBUG
+**************************************************************** */
+.debug header {
+  height: 100px;
+}
+
+/* UTILITY
+**************************************************************** */
+/* color */
+:root {
+  --black: #000000;
+  --gray: #1F1F1F;
+  --lightgray: #BEBCBB;
+  --blue: #161C3B;
+  --graybtn: #363636;
+  --lightblue: #00439C;
+  --orangebtn: #CD3D0F;
+  --bluebtn: #2D64E6;
+  --graybtn: #D9DADC;
+  --lightgraybtn: #F5F5F5;
+}
