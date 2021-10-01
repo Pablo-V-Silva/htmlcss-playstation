@@ -63,6 +63,8 @@
   --lightgraybtn: #D9DADC;
   --whitebtn: #F5F5F5;
   --prov: #EE96F5;
+  --op_blue: #2d65e648;
+  --blue_text: #2D64E6;
 }
 /* btn colors */
 .gray_btn {
@@ -88,6 +90,7 @@ header {
   width: 100vw;
   position: fixed;
   top: 0;
+  z-index: 3;
 }
 header .h_banner {
   background-color: var(--black);
@@ -142,3 +145,30 @@ nav li.nav-item:hover .dd_no_hover {
 .border_o:hover {
   border: 2px solid var(--orangebtn);
 }
+/* /first section */
+
+.br_1 {
+  border-radius: 1rem;
+  padding: 0.05rem 0.1rem;
+}
+
+.border_b:hover {
+  border: 2px solid var(--op_blue);
+  border-radius: 1rem;
+  filter: drop-shadow(0 0 1rem var(--bluebtn));
+}
+
+.blue_text {
+  color: var(--blue_text);
+}
+/* /carousel */
+
+.border_btn_b:hover {
+  border: 2px solid var(--bluebtn);
+}
+
+.blue_btn:hover {
+  border: 2px solid var(--white);
+}
+/* /console btn */
+
