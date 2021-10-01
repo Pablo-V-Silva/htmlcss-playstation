@@ -156,6 +156,7 @@ nav li.nav-item:hover .dd_no_hover {
   border: 2px solid var(--op_blue);
   border-radius: 1rem;
   filter: drop-shadow(0 0 1rem var(--bluebtn));
+  cursor: pointer;
 }
 
 .blue_text {
@@ -172,3 +173,10 @@ nav li.nav-item:hover .dd_no_hover {
 }
 /* /console btn */
 
+.selection {
+  min-height: 259px;
+  cursor: pointer;
+}
+.selection:hover {
+  border-bottom: 3px solid var(--bluebtn);
+}
