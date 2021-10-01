@@ -64,7 +64,7 @@
   --whitebtn: #F5F5F5;
   --prov: #EE96F5;
 }
-
+/* btn colors */
 .gray_btn {
   background-color: var(--graybtn);
 }
@@ -73,6 +73,14 @@
   background-color: var(--bluebtn);
 }
 
+.orange_btn {
+  background-color: var(--orangebtn);
+}
+
+/* font */
+.fs_7 {
+  font-size: 3.5rem;
+}
 
 /* NAV
 ***************************************************************** */
@@ -83,6 +91,10 @@ header {
 }
 header .h_banner {
   background-color: var(--black);
+}
+
+nav {
+  background-color: var(--white);
 }
 nav .dd_hover {
   display: none;
@@ -98,17 +110,36 @@ nav li.nav-item:hover .dd_no_hover {
   display: none;
 }
 
-nav .border_w {
-  border: 0px solid var(--bluebtn);
-}
-
-nav .button:hover {
+.border_g:hover {
   border: 2px solid var(--graybtn);
   margin-left: -0.25rem;
   margin-right: -0.1rem;
 }
 
-nav .gray_btn:hover {
+.gray_btn:hover {
   border: 2px solid white;
 }
 
+/* MAIN
+*********************************************************************** */
+.returnal {
+  background-image: url("./img/jumbo-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  height: 700px;
+  margin-top: 7.2rem;
+}
+
+.type_button {
+  display: inline-block;
+  padding-top: 0.4rem 0 0.5rem;
+}
+
+.orange_btn:hover {
+  border: 2px solid black;
+}
+
+.border_o:hover {
+  border: 2px solid var(--orangebtn);
+}
