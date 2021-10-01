@@ -2,12 +2,56 @@
 **************************************************************** */
 .debug header {
   height: 100px;
+  background-color: var(--black);
+}
+
+.debug .jumbo {
+  height: 400px;
+  background-color: var(--prov);
+}
+
+.debug .review_ps5 {
+  height: 500px;
+  background-color: var(--white);
+}
+
+.debug .game_list {
+  height: 400px;
+  background-color: var(--gray);
+}
+
+.debug .explore_ps5 {
+  height: 400px;
+}
+
+.debug .ps_plus {
+  height: 400px;
+  background-color: var(--lightgray);
+}
+
+.debug .ps_store {
+  height: 400px;
+}
+
+.debug .ps_now {
+  height: 400px;
+  background-color: var(--blue);
+}
+
+.debug .social {
+  height: 200px;
+}
+
+.debug footer {
+  height: 300px;
+  background-color: var(--lightblue);
 }
 
 /* UTILITY
 **************************************************************** */
 /* color */
 :root {
+  --white: #ffffff;
   --black: #000000;
   --gray: #1F1F1F;
   --lightgray: #BEBCBB;
@@ -16,6 +60,7 @@
   --lightblue: #00439C;
   --orangebtn: #CD3D0F;
   --bluebtn: #2D64E6;
-  --graybtn: #D9DADC;
-  --lightgraybtn: #F5F5F5;
+  --lightgraybtn: #D9DADC;
+  --whitebtn: #F5F5F5;
+  --prov: #EE96F5;
 }
