@@ -64,3 +64,17 @@
   --whitebtn: #F5F5F5;
   --prov: #EE96F5;
 }
+
+/* NAV
+***************************************************************** */
+.dd_hover {
+  visibility: hidden;
+}
+
+li.nav-item:hover .dd_hover {
+  visibility: visible;
+}
+
+li.nav-item:hover .dd_no_hover {
+  visibility: hidden;
+}
