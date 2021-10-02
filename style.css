@@ -176,7 +176,7 @@ nav li.nav-item:hover .dd_no_hover {
 /* /console btn */
 
 .selection {
-  min-height: 259px;
+  min-height: 260px;
   cursor: pointer;
 }
 .selection:hover {
@@ -208,4 +208,22 @@ nav li.nav-item:hover .dd_no_hover {
 
 .card {
   border: 0px;
+}
+/* Details PS */
+
+.ps_plus {
+  background-color: var(--lightgray);
+  height: 450px;
+}
+
+.border_lg:hover {
+  border: 2px solid var(--lightgraybtn);
+}
+
+.lg_btn:hover {
+  border: 2px solid var(--lightgray);
+}
+
+.lg_btn {
+  background-color: var(--lightgraybtn);
 }
