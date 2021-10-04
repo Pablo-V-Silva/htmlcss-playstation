@@ -237,3 +237,34 @@ nav li.nav-item:hover .dd_no_hover {
 .lg_btn_b:hover {
   border: 2px solid var(--blue);
 }
+/* /PS now */
+
+
+/* FOOTER
+************************************************************************ */
+footer {
+  background-color: var(--lightblue);
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footer_link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer_link:hover {
+  color: var(--white);
+}
+/* /Link */
+
+/* MEDIA QUARY
+*************************************************************************** */
+@media screen and (max-width:1192px) {
+  .d_none {
+    display: none;
+  }
+  
+}
