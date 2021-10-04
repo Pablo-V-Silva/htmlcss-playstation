@@ -227,3 +227,13 @@ nav li.nav-item:hover .dd_no_hover {
 .lg_btn {
   background-color: var(--lightgraybtn);
 }
+/* /PS plus */
+
+.ps_now {
+  background-color: var(--blue);
+  height: 450px;
+}
+
+.lg_btn_b:hover {
+  border: 2px solid var(--blue);
+}
